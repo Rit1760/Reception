@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('/Fonts/Roboto/static/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ===== Page Wrapper ===== */
+.main1_PermissionFormFill {
+  width: 100%;
+  min-height: 100vh;
+  background: #f4f6f9;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.container1_PermissionFormFill {
+  max-width: 1100px;
+  margin: 0 auto;
+
+}
+
+/* ===== Main Form Card ===== */
+.rgp-container {
+  background: #ffffff;
+  padding: 35px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* ===== Title ===== */
+.rgp-title {
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  color: #1f2937;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 15px;
+   font-family: 'Roboto-Regular';
+}
+
+/* ===== Section ===== */
+.rgp-section {
+  margin-bottom: 30px;
+}
+
+.rgp-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #111827;
+  border-left: 4px solid #ff6600;
+  padding-left: 10px;
+   font-family: 'Roboto-Regular';
+}
+
+/* ===== Grid Layout ===== */
+.rgp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px 30px;
+}
+
+/* ===== Inputs ===== */
+.rgp-grid label,
+.rgp-checkbox label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 6px;
+  color: #374151;
+  font-weight: 600;
+   font-family: 'Roboto-Regular';
+}
+
+.rgp-grid input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+   font-family: 'Roboto-Regular';
+}
+
+.rgp-grid input:focus {
+  border-color: #ff6600;
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.15);
+}
+
+/* ===== Checkbox Section ===== */
+.rgp-checkbox {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+  align-items: center;
+  font-size: 14px;
+   font-family: 'Roboto-Regular';
+
+}
+
+.rgp-checkbox span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+   font-family: 'Roboto-Regular';
+
+}
+
+.rgp-checkbox input[type="checkbox"] {
+  transform: scale(1.1);
+  cursor: pointer;
+   font-family: 'Roboto-Regular';
+}
+
+/* inline input for Other */
+.inline-input {
+  width: 140px;
+  padding: 6px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+   font-family: 'Roboto-Regular';
+}
+
+/* ===== Submit Button ===== */
+button[type="submit"] {
+  margin-top: 30px;
+  padding: 12px 36px;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+   font-family: 'Roboto-Regular';
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(135deg, #000000, #111827);
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.3);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .rgp-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .rgp-container {
+    padding: 25px;
+  }
+}
