@@ -1,6 +1,3 @@
-
-
-
 "use client";
 
 import "../../Styles/Login.css";

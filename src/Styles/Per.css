@@ -5,7 +5,6 @@
   font-style: normal;
 }
 
-/* ===== Page Wrapper ===== */
 .main1_PermissionFormFill {
   width: 100%;
   min-height: 100vh;
@@ -20,7 +19,6 @@
 
 }
 
-/* ===== Main Form Card ===== */
 .rgp-container {
   background: #ffffff;
   padding: 35px 40px;
@@ -28,7 +26,6 @@
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-/* ===== Title ===== */
 .rgp-title {
   text-align: center;
   font-size: 28px;
@@ -40,7 +37,6 @@
    font-family: 'Roboto-Regular';
 }
 
-/* ===== Section ===== */
 .rgp-section {
   margin-bottom: 30px;
 }
@@ -54,14 +50,12 @@
    font-family: 'Roboto-Regular';
 }
 
-/* ===== Grid Layout ===== */
 .rgp-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 18px 30px;
 }
 
-/* ===== Inputs ===== */
 .rgp-grid label,
 .rgp-checkbox label {
   display: block;
@@ -88,7 +82,6 @@
   box-shadow: 0 0 0 2px rgba(37,99,235,0.15);
 }
 
-/* ===== Checkbox Section ===== */
 .rgp-checkbox {
   margin-top: 15px;
   display: flex;
