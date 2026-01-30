@@ -4,7 +4,6 @@ import "../../Styles/Login.css";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-// import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
@@ -43,9 +42,6 @@ export default function Login() {
   };
 
 
-
-
-
   return (
     <div className="main1_Login">
       <div className="container1_Login">
@@ -63,7 +59,6 @@ export default function Login() {
             >
 
                             <SwiperSlide>
-                {/* <img src="/Images/corporate.png" alt="Login" /> */}
                 <img src="/Images/sunrise.png" alt="Login" />
               </SwiperSlide>
               <SwiperSlide>
@@ -82,14 +77,12 @@ export default function Login() {
           </div>
 
 
-          {/* RIGHT – FORM */}
           <div className="col2_Login">
             <form onSubmit={handleSubmit}>
               <h2>Login Here</h2>
 
               <label>Email</label>
               <input type="email" name="email" id="email" placeholder="Enter email"  onChange={handleChange} required />
-              {/* <input type="email" name="email" id="email" placeholder="Enter email" value={formData.email} onChange={handleChange} required /> */}
 
               <label>Password</label>
               <input type="password" name="password" id="password" placeholder="Enter password" onChange={handleChange} required />

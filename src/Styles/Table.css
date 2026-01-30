@@ -1,0 +1,70 @@
+.main1_Table {
+  padding: 24px;
+}
+
+.container1_Table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.col1_Table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  /* border-radius: 10px; */
+  overflow: hidden;
+}
+
+.col1_Table thead {
+  background: linear-gradient(135deg, #b9babc, #8a8a8b);
+}
+
+.col1_Table thead th {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  padding: 14px 12px;
+  text-align: left;
+}
+
+.col1_Table tbody tr {
+  transition: background 0.25s ease;
+}
+
+.col1_Table tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.col1_Table tbody tr:hover {
+  background-color: #eef2ff;
+}
+
+.col1_Table tbody td {
+  padding: 12px;
+  color: #1f2937;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+}
+
+.col1_Table tbody td[colspan] {
+  text-align: center;
+  padding: 30px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .col1_Table table {
+    font-size: 13px;
+  }
+
+  .col1_Table thead th,
+  .col1_Table tbody td {
+    padding: 10px 8px;
+  }
+}

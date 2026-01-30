@@ -127,7 +127,9 @@ export default function Home() {
                 <input type="text"   name="username" placeholder="Name..."   onChange={handleChange} required />
 
                 <label>Email</label>
-                <input type="email"   name="email" placeholder="Email..."   onChange={handleChange} required />
+                <input type="email"   name="email" placeholder="Email..."   onChange={handleChange}   required />
+
+
 
                 <label>Password</label>
                 <input type="password" name="password" placeholder="Password"   onChange={handleChange} required />
